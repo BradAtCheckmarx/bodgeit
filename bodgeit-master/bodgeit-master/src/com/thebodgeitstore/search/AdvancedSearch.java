@@ -17,6 +17,7 @@ import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+
 public class AdvancedSearch {
     private HttpServletRequest request = null;
     private HttpSession session = null;
