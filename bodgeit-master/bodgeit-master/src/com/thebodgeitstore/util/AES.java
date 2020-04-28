@@ -23,6 +23,7 @@ import javax.crypto.spec.SecretKeySpec;
        private static String CIPHER_TRANSFORMATION = "AES/CTR/NoPadding";
        private static String KEY_TYPE = "AES";
        private static int KEY_SIZE_BITS = 128;
+       //wut
        
        private SecretKey key;
        private Cipher cipher = Cipher.getInstance(CIPHER_TRANSFORMATION);

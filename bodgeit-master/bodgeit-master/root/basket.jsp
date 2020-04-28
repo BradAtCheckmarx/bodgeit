@@ -50,10 +50,12 @@ function decQuantity (prodid) {
 	
 	if (basketId != null) {
 		// Dont need to do anything else
+		//Making more changes, and seeing if we can do anything with them.
 			
 //Statement stmt = conn.createStatement();
 //Security Fix
 //Adding a little more to the comments...
+//Something more
 PreparedStatement preparedStatement = con.prepareStatement(sql);
 try {
 //ResultSet rs = stmt.executeQuery("SELECT * FROM Baskets WHERE basketid = " + basketId);

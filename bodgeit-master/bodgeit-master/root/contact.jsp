@@ -20,7 +20,7 @@ if (request.getMethod().equals("POST") && comments != null) {
 		comments = comments.replace("</script>", "");
 		// And double quotes, just to make sure
 		comments = comments.replace("\"", "");
-
+        //this is the comment JSP
 		PreparedStatement stmt = conn.prepareStatement("INSERT INTO Comments (name, comment) VALUES (?, ?)");
 		ResultSet rs = null;
 		try {
