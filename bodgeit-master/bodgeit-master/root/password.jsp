@@ -7,7 +7,7 @@
 String username = (String) session.getAttribute("username");
 String usertype = (String) session.getAttribute("usertype");
 
-//String password1 = (String) request.getParameter("password1");
+String password1 = (String) request.getParameter("password1");
 String password2 = (String) request.getParameter("password2");
 String okresult = null;
 String failresult = null;
@@ -21,7 +21,7 @@ if (password1 != null && password1.length() > 0) {
 		Statement stmt = conn.createStatement();
 		ResultSet rs = null;
 		try {
-			//stmt.executeQuery("UPDATE Users set password= '" + password1 + "' where name = '" + username + "'");
+			stmt.executeQuery("UPDATE Users set password= '" + password1 + "' where name = '" + username + "'");
 			
 			okresult = "Your password has been changed";
 
