@@ -46,6 +46,7 @@ function decQuantity (prodid) {
 			}
 		}
 	}
+
 	
 	if (basketId != null) {
 		// Dont need to do anything else
