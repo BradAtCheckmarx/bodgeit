@@ -12,6 +12,7 @@
 			conn.createStatement().execute("UPDATE Score SET status = 1 WHERE task = 'HIDDEN_ADMIN'");
 		} 
 		
+		#Adding a comment...
 		stmt = conn.prepareStatement("SELECT * FROM Users");
 		rs = stmt.executeQuery();
 		out.println("<br/><center><table class=\"border\" width=\"80%\">");
