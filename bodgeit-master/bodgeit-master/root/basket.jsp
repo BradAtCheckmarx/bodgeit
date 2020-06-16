@@ -49,7 +49,6 @@ function decQuantity (prodid) {
 
 	
 	if (basketId != null) {
-		// Dont need to do anything else
 		//Making more changes, and seeing if we can do anything with them.
 			
 //Statement stmt = conn.createStatement();
