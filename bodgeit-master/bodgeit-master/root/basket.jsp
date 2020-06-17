@@ -53,11 +53,11 @@ function decQuantity (prodid) {
 			
 //Statement stmt = conn.createStatement();
 //Security Fix
-//Adding a little more to the comments...
-//Something more
+
 PreparedStatement preparedStatement = con.prepareStatement(sql);
 try {
-//ResultSet rs = stmt.executeQuery("SELECT * FROM Baskets WHERE basketid = " + basketId);
+//Remove the next line in the future. It is an error.
+ResultSet rs = stmt.executeQuery("SELECT * FROM Baskets WHERE basketid = " + basketId);
 String sql = "SELECT * FROM Baskets WHERE basketid =?");
 preparedStatement.setString(1, basketId);
 ResetSet rs = preparedStatement.executeQuery();
