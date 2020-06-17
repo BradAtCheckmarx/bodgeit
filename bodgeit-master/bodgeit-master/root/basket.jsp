@@ -51,6 +51,7 @@ function decQuantity (prodid) {
 	if (basketId != null) {
 		//Making more changes, and seeing if we can do anything with them.
 
+
 //Also remove this statement in a future scan. 
 Statement stmt = conn.createStatement();
 //Security Fix
