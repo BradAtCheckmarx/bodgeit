@@ -54,8 +54,8 @@ function decQuantity (prodid) {
 
 //Also remove this statement in a future scan. 
 //Statement stmt = conn.createStatement();
-//Security Fix
 
+// Prepared Statement to create securityfix.
 PreparedStatement preparedStatement = con.prepareStatement(sql);
 try {
 //Remove the next line in the future. It is an error.
