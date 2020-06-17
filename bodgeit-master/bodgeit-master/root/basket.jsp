@@ -53,7 +53,7 @@ function decQuantity (prodid) {
 
 
 //Also remove this statement in a future scan. 
-Statement stmt = conn.createStatement();
+//Statement stmt = conn.createStatement();
 //Security Fix
 
 PreparedStatement preparedStatement = con.prepareStatement(sql);
