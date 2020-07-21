@@ -8,5 +8,6 @@ Trying to createa a new BA instead of using an existing one.
 Turned off multi-tenancy. Still no good.
 Have no way to know what my business unit is.
 Jurgen provided a working config file. 
+Not working. Surprise, surprise.
 
 
